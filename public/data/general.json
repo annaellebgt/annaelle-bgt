@@ -4,13 +4,13 @@
   },
 
   "navbar": {
-    "brand": "<span class='text-primary'>Foxy</span> Agency",
+    "brand": "<span class='text-primary'>Annaëlle</span> Baiget",
     "logo": "images/logo/agency-logo-small.png"
   },
 
   "header": {
-    "title": "My Portefolio",
-    "subtitle": "Made by Ryan Balieiro with Vue3 and Bootstrap 5.0",
+    "title": "My Portfolio",
+    "subtitle": "Computer Science Engineer",
     "imageUrl": "images/logo/agency-logo.png",
     "button": {
       "label": "Find Out More",
