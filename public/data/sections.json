@@ -1,9 +1,40 @@
 {
   "sections": [
     {
+      "id": "history",
+      "component": "HistorySection",
+      "class": "agency-section",
+      "navbar": {
+        "label": "Education",
+        "faIcon": "fa-solid fa-clock"
+      },
+
+      "headline": {
+        "title": "My <span class='text-primary'>Education</span>",
+        "subtitle": "French School System"
+      },
+
+      "items": [
+        {
+          "title": "CentraleSupélec - Paris-Saclay University",
+          "date": "2021 → Now",
+          "description": "<span class='text-primary'>GPA : 4.24/4.33</span> <div><ul> <li> General Scientific Education: Mathematics, Physics, Computer Science, Engineering Sciences, Economy, Finance and Management. <li> Relevant courses: Algorithmic and Complexity, Statistics and Learning, Information Systems and Programming, Networks and Security, Object Oriented Software Engineering, Optimization, and Convergence, Integration and Probability. <li> Currently enrolled in an elite computer science track: the Digital Tech Year (first semester composed of seven-week projects for top-tier French companies; and internship abroad for the second semester).</ul></div>",
+          "imageUrl": "images/history/history-1.png"
+        },
+        {
+          "title": "Lycée Privée Sainte-Geneviève",
+          "date": "2019 → 2021",
+          "description": "<span class='text-primary'>GPA : 3.94/4.00</span> <ul> <li>Fields of study: Mathematics, Physics, Engineering Sciences, Computer Science <li> Highly selective 2-year program, offering intensive preparation to enter the French ”Grandes Ecoles”, at the best French preparatory school.</ul>",
+          "imageUrl": "images/history/history-2.png"
+        }
+      ],
+
+      "footer": {}
+    },
+    {
       "id": "portfolio",
       "component": "PortfolioSection",
-      "class": "agency-section",
+      "class": "agency-section-primary",
       "navbar": {
         "label": "Portfolio",
         "faIcon": "fa-solid fa-camera"
@@ -136,8 +167,8 @@
       },
 
       "headline": {
-        "title": "Our <span class='text-primary'>Services</span>",
-        "subtitle": "This section can be used to describe what you offer!"
+        "title": "My <span class='text-primary'>Skills</span>",
+        "subtitle": "Tech skills & competences!"
       },
 
       "items": [
@@ -175,38 +206,6 @@
           "title": "Lightweight",
           "faIcon": "fa-solid fa-feather",
           "description": "This template is optimized for performance and speed, with a minimal codebase and minimal dependencies, resulting in a faster load time and improved user experience."
-        }
-      ],
-
-      "footer": {}
-    },
-
-    {
-      "id": "history",
-      "component": "HistorySection",
-      "class": "agency-section",
-      "navbar": {
-        "label": "Education",
-        "faIcon": "fa-solid fa-clock"
-      },
-
-      "headline": {
-        "title": "My <span class='text-primary'>Education</span>",
-        "subtitle": "French School System"
-      },
-
-      "items": [
-        {
-          "title": "CentraleSupélec - Paris-Saclay University",
-          "date": "2021 → Now",
-          "description": "<span class='text-primary'>GPA : 4.24/4.33</span> <ul> <li> General Scientific Education: Mathematics, Physics, Computer Science, Engineering Sciences, Economy, Finance and Management. <li> Relevant courses: Algorithmic and Complexity, Statistics and Learning, Information Systems and Programming, Networks and Security, Object Oriented Software Engineering, Optimization, and Convergence, Integration and Probability. <li> Currently enrolled in an elite computer science track: the Digital Tech Year (first semester composed of seven-week projects for top-tier French companies; and internship abroad for the second semester).</ul>",
-          "imageUrl": "images/history/history-1.png"
-        },
-        {
-          "title": "Lycée Privée Sainte-Geneviève",
-          "date": "2019 → 2021",
-          "description": "<span class='text-primary'>GPA : 3.94/4.00</span> <ul> <li>Fields of study: Mathematics, Physics, Engineering Sciences, Computer Science <li> Highly selective 2-year program, offering intensive preparation to enter the French ”Grandes Ecoles”, at the best French preparatory school.</ul>",
-          "imageUrl": "images/history/history-2.png"
         }
       ],
 

@@ -167,5 +167,9 @@ const props = defineProps({
       text-align: var(--inverted-align);
     }
   }
+
+  .text-muted {
+    text-align: left;
+  }
 }
 </style>
