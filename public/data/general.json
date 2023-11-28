@@ -5,17 +5,17 @@
 
   "navbar": {
     "brand": "<span class='text-primary'>Annaëlle</span> Baiget",
-    "logo": "images/logo/agency-logo-small.png"
+    "logo": "images/logo/dev-logo.webp"
   },
 
   "header": {
     "title": "My Portfolio",
-    "subtitle": "Computer Science Engineer",
-    "imageUrl": "images/logo/agency-logo.png",
+    "subtitle": "Computer Engineering Student",
+    "imageUrl": "images/logo/dev-logo.webp",
     "button": {
-      "label": "Find Out More",
+      "label": "Get to know me!",
       "icon": "fa fa-search",
-      "targetSection": "about"
+      "targetSection": "About"
     }
   },
 
@@ -23,26 +23,22 @@
     "left": {
       "title": "About",
       "faIcon": "fa fa-pen me-1 d-none d-md-inline",
-      "description": "This template is maintained by Ryan Balieiro and is based on the <a href='https://getbootstrap.com/'>Bootstrap</a> framework and the <a href='http://vuejs.org/'>Vue</a> framework.",
-      "items": [
-        { "label": "Privacy Policy", "routerHref": "policy" },
-        { "label": "License", "routerHref": "license" },
-        {
-          "label": "Github Repo",
-          "href": "https://github.com/ryanbalieiro/foxy-template"
-        }
-      ],
+      "description": "This is my portfolio, where I showcase my projects and skills. It is based on the Bootstrap framework and the Vue framework.",
       "displayItemsAsButtons": false
     },
 
     "middle": {
-      "title": "Connect With Us",
+      "title": "Connect With Me",
       "description": null,
       "items": [
-        { "faIcon": "fa-brands fa-twitter", "href": "https://twitter.com" },
-        { "faIcon": "fa-brands fa-facebook", "href": "https://facebook.com" },
-        { "faIcon": "fa-brands fa-linkedin", "href": "https://linkedin.com" },
-        { "faIcon": "fa-brands fa-spotify", "href": "https://spotify.com" }
+        {
+          "faIcon": "fa-brands fa-github",
+          "href": "https://github.com/annaellebgt"
+        },
+        {
+          "faIcon": "fa-brands fa-linkedin",
+          "href": "https://www.linkedin.com/in/anna%C3%ABlle-baiget-698707224/"
+        }
       ],
       "displayItemsAsButtons": true
     },
@@ -50,25 +46,15 @@
     "right": {
       "title": "Contact Info",
       "faIcon": "fa fa-fax me-2",
-      "description": [
-        "999 Vue Developer's Avenue, 4A Suite 32",
-        "Cupertino – CA 01235"
-      ],
+      "description": ["You can contact me by email"],
       "items": [
         {
-          "faIcon": "fa fa-phone",
-          "label": "(555) 555-1234",
-          "href": "tel:123456789"
-        },
-        {
           "faIcon": "fa fa-envelope",
-          "label": "contact@foxyagency.com",
-          "href": "mailto:foxy@agency.com"
+          "label": "annaelle.baiget@student-cs.fr",
+          "href": "mailto:annaelle.baiget@student-cs.fr"
         }
       ],
       "displayItemsAsButtons": false
-    },
-
-    "copyright": "Copyright ©2023 <a href='ryanbalieiro.com'>Ryan Balieiro</a> – Distributed Under the MIT License"
+    }
   }
 }

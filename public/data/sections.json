@@ -1,6 +1,32 @@
 {
   "sections": [
     {
+      "id": "about",
+      "component": "AboutSection",
+      "class": "agency-section-primary",
+      "navbar": {
+        "label": "Presentation",
+        "faIcon": "fa-solid fa-face-smile"
+      },
+
+      "headline": {
+        "title": "<span class='text-primary'>About </span>me"
+      },
+
+      "items": [
+        {
+          "imageUrl": "images/avatars/annaelle-picture.jpg",
+          "description": [
+            "Greetings! I'm Annaëlle Baiget, a computer science enthusiast driven by a fascination for problem-solving and innovative thinking.",
+            "My journey from mathematics Olympiads to CentraleSupélec has ignited a passion for computer science. What captivates me most is the dynamic nature of the field and its potential to create meaningful solutions.",
+            "Currently, I'm a software engineer at Datamaran, working on AI-driven prototypes for ESG risk identification."
+          ]
+        }
+      ],
+
+      "footer": {}
+    },
+    {
       "id": "history",
       "component": "HistorySection",
       "class": "agency-section",
@@ -118,37 +144,10 @@
         }
       ],
 
-      "footer": {}
-    },
-    {
-      "id": "about",
-      "component": "AboutSection",
-      "class": "agency-section",
-      "navbar": {
-        "label": "About",
-        "faIcon": "fa-solid fa-file"
-      },
-
-      "headline": {
-        "title": "<span class='text-primary'>About</span> Template",
-        "subtitle": "Get to know more about the project!"
-      },
-
-      "items": [
-        {
-          "imageUrl": "images/logo/agency-logo.png",
-          "description": [
-            "<b>Ryan Balieiro</b> created the Foxy Agency Template, a free Vue3 & Bootstrap 5.0 theme. The downloadable files consist of the entire source code, including HTML, CSS, and Javascript. Please feel free to download and customize the theme as you wish.",
-            "The template available on <a href='github.com'>GitHub</a> is a valuable resource for developers, as it provides a free and accessible solution for various projects. Hosted on the platform, the template allows users to easily access and utilize the source code, making it a convenient starting point for web development endeavors.",
-            "With this template, you have the freedom to create custom sections, fill pre-existing ones with your own content, and personalize the colors, fonts, and much more to your liking. In case you encounter any challenges while attempting to customize or run this template, please feel free to reach out to me without any hesitation. I would be more than happy to extend my assistance and help you out in every possible way."
-          ]
-        }
-      ],
-
       "footer": {
         "divider": true,
-        "title": "Get it for <span class='text-primary'>free!</span>",
-        "description": "Do you want to use and/or customize this template? Feel free to clone it from the official Github repo!",
+        "title": "Standard Resume",
+        "description": "You can dowload my resume in a standard format here",
         "smallDescription": false,
         "button": {
           "label": "Download Now!",
@@ -160,323 +159,54 @@
     {
       "id": "services",
       "component": "ServicesSection",
-      "class": "agency-section-primary",
+      "class": "agency-section",
       "navbar": {
-        "label": "Services",
-        "faIcon": "fa-solid fa-wrench"
+        "label": "Skills",
+        "faIcon": "fa-solid fa-code"
       },
 
       "headline": {
         "title": "My <span class='text-primary'>Skills</span>",
-        "subtitle": "Tech skills & competences!"
+        "subtitle": "Tech skills, competences and interests!"
       },
 
       "items": [
         {
-          "title": "Vue3",
-          "faIcon": "fa-brands fa-vuejs",
-          "description": "This template is built using the Vue3 JavaScript framework, providing a modern and efficient development experience."
-        },
-
-        {
-          "title": "Responsive Design",
-          "faIcon": "fa-solid fa-laptop",
-          "description": "This template is designed to adapt seamlessly to various screen sizes, providing a consistent user experience across devices."
-        },
-
-        {
-          "title": "Minimalist",
-          "faIcon": "fa-solid fa-wand-magic",
-          "description": "This template features a clean and simple design, with a focus on essential elements, resulting in a modern and elegant look."
-        },
-
-        {
-          "title": "Fully Customizable",
-          "faIcon": "fa-solid fa-hand-sparkles",
-          "description": "This template can be easily customized to match your brand's visual identity and requirements, giving you full control over the design and functionality."
-        },
-
-        {
-          "title": "Open Source",
+          "title": "Coding Languages",
           "faIcon": "fa-solid fa-code",
-          "description": "This template is open-source, meaning the code is publicly accessible and can be modified or redistributed without restrictions."
+          "description": "Python, HTML, CSS, JavaScript, Java, SQL, Bash, LaTeX, Git"
         },
 
         {
-          "title": "Lightweight",
-          "faIcon": "fa-solid fa-feather",
-          "description": "This template is optimized for performance and speed, with a minimal codebase and minimal dependencies, resulting in a faster load time and improved user experience."
+          "title": "Frameworks",
+          "faIcon": "fa-brands fa-vuejs",
+          "description": "VueJs, React, Angular, Django, Flask, Spring Boot, ExpressJS, FastApi, Webflow, Docker"
+        },
+
+        {
+          "title": "Databases",
+          "faIcon": "fa-solid fa-database",
+          "description": "MongoDB, PostgreSQL, MySQL, ElasticSearch"
+        },
+
+        {
+          "title": "Team Projects",
+          "faIcon": "fa-solid fa-hand-sparkles",
+          "description": "Scrum Methodology, Design Thinking, Communication skills, Project Management"
+        },
+
+        {
+          "title": "Languages",
+          "faIcon": "fa-solid fa-language",
+          "description": "French (Native), English (Fluent - TOEFL : 108 (2023)), Spanish (Fluent - C1)"
+        },
+
+        {
+          "title": "Interests",
+          "faIcon": "fa-solid fa-table-tennis-paddle-ball",
+          "description": "Table tennis, Soccer, Badminton, Tennis, Bridge, Reading (hispanic and english novels)"
         }
       ],
-
-      "footer": {}
-    },
-
-    {
-      "id": "featured",
-      "class": "agency-section-featured",
-      "component": "FeaturedSection",
-      "navbar": {
-        "label": "Zork",
-        "faIcon": "fa-solid fa-bolt"
-      },
-
-      "headline": {},
-
-      "items": [
-        {
-          "title": "<span class='text-primary'>Zork</span> App",
-          "category": "Utilities",
-          "description": "<b>Zork</b> is your ultimate battery life management app, empowering you to seize control of your device's energy consumption effortlessly. With its intuitive interface, Zork provides real-time monitoring of battery status, enabling you to identify power-draining apps and processes. Optimizing your device's settings becomes a breeze as Zork offers personalized recommendations to extend battery life without compromising performance.",
-          "imageUrl": "images/portfolio/project-logo-8.png",
-          "tags": ["app", "battery", "save"],
-          "links": [
-            { "faIcon": "fa-brands fa-apple", "href": "https://apple.com" },
-            {
-              "faIcon": "fa-brands fa-google-play",
-              "href": "https://googleplay.com"
-            },
-            { "faIcon": "fa-brands fa-windows", "href": "https://windows.com" }
-          ]
-        }
-      ],
-
-      "footer": {}
-    },
-
-    {
-      "id": "team",
-      "component": "TeamSection",
-      "class": "agency-section-primary",
-      "navbar": {
-        "label": "Team",
-        "faIcon": "fa-solid fa-user"
-      },
-
-      "headline": {
-        "title": "Our <span class='text-primary'>Team</span>",
-        "subtitle": "Meet the main characters of our amazing crew!"
-      },
-
-      "items": [
-        {
-          "title": "Jonathan Moore",
-          "imageUrl": "images/avatars/person-1.png",
-          "description": "CEO",
-          "quote": "With over 20 years of experience in international development, I've dedicated my career to creating sustainable solutions for communities in need.",
-          "links": [
-            { "faIcon": "fa-brands fa-twitter", "href": "https://twitter.com" },
-            {
-              "faIcon": "fa-brands fa-instagram",
-              "href": "https://instagram.com"
-            },
-            {
-              "faIcon": "fa-brands fa-linkedin",
-              "href": "https://linkedin.com"
-            }
-          ]
-        },
-
-        {
-          "title": "Alicia Cole",
-          "imageUrl": "images/avatars/person-2.png",
-          "description": "Marketing Analist",
-          "quote": "With my expertise in market research and consumer behavior, I help businesses make strategic decisions that drive growth and enhance overall customer satisfaction.",
-          "links": [
-            { "faIcon": "fa-brands fa-twitter", "href": "https://twitter.com" },
-            {
-              "faIcon": "fa-brands fa-linkedin",
-              "href": "https://linkedin.com"
-            }
-          ]
-        },
-
-        {
-          "title": "Sofia Kondakova",
-          "imageUrl": "images/avatars/person-3.png",
-          "description": "Lead Developer",
-          "quote": "With a proven track record of creating complex software systems, I bring a wealth of technical expertise to the table.",
-          "links": [
-            { "faIcon": "fa-brands fa-twitter", "href": "https://twitter.com" },
-            { "faIcon": "fa-brands fa-github", "href": "https://github.com" },
-            {
-              "faIcon": "fa-brands fa-linkedin",
-              "href": "https://linkedin.com"
-            }
-          ]
-        },
-
-        {
-          "title": "Jiang Xi",
-          "imageUrl": "images/avatars/person-4.png",
-          "description": "Product Manager",
-          "quote": "Leading diverse teams with strategic vision, I drive customer-centric solutions, fostering innovation and delivering real value to the market.",
-          "links": [
-            {
-              "faIcon": "fa-brands fa-instagram",
-              "href": "https://instagram.com"
-            },
-            {
-              "faIcon": "fa-brands fa-facebook",
-              "href": "https://facebook.com"
-            },
-            {
-              "faIcon": "fa-brands fa-linkedin",
-              "href": "https://linkedin.com"
-            }
-          ]
-        },
-
-        {
-          "title": "Travis Jones",
-          "imageUrl": "images/avatars/person-5.png",
-          "description": "CFO",
-          "quote": "Guiding financial growth, I ensure stability through meticulous planning and risk management. Empowering the team to seize opportunities, we achieve lasting success.",
-          "links": [
-            {
-              "faIcon": "fa-brands fa-instagram",
-              "href": "https://instagram.com"
-            },
-            {
-              "faIcon": "fa-brands fa-linkedin",
-              "href": "https://linkedin.com"
-            }
-          ]
-        },
-
-        {
-          "title": "Aaron Friedrich",
-          "imageUrl": "images/avatars/person-6.png",
-          "description": "Information Security Officer",
-          "quote": "Safeguarding valuable data is my mission. As a vigilant CISO, I proactively secure the digital landscape, assuring the trust of customers and partners with cutting-edge measures.",
-          "links": [
-            {
-              "faIcon": "fa-brands fa-instagram",
-              "href": "https://instagram.com"
-            },
-            {
-              "faIcon": "fa-brands fa-linkedin",
-              "href": "https://linkedin.com"
-            }
-          ]
-        }
-      ],
-
-      "footer": {}
-    },
-
-    {
-      "id": "reviews",
-      "component": "ReviewsSection",
-      "class": "agency-section",
-      "navbar": {
-        "label": "Reviews",
-        "faIcon": "fa-solid fa-comment"
-      },
-
-      "headline": {
-        "title": "Client <span class='text-primary'>Reviews</span>",
-        "subtitle": "What people say about us!"
-      },
-
-      "items": [
-        {
-          "title": "Spotify",
-          "imageUrl": "images/clients/client-spotify.svg",
-          "quote": "I am absolutely blown away by the Vue3 website template! The minimalist design is simply stunning, and it's incredibly easy to customize to fit my needs. Plus, it loads super fast, which is crucial for my business. I highly recommend this template!",
-          "description": "John Lee – Engineer"
-        },
-        {
-          "title": "Voloco",
-          "imageUrl": "images/clients/client-voloco.svg",
-          "quote": "I can't say enough good things about this website template. As someone with no coding experience, I was able to create a professional-looking website in no time. The responsiveness is top-notch, and the open-source nature of the code means I can tweak it to my heart's content. This template is a game-changer!",
-          "description": "Any Heather – HR Lead"
-        },
-        {
-          "title": "Microsoft",
-          "imageUrl": "images/clients/client-microsoft.svg",
-          "quote": "This is hands down the best website template I've ever used. The lightweight codebase makes for a lightning-fast site, and the fully customizable nature allowed me to create a unique and engaging experience for my users. I highly recommend this template to anyone looking for a sleek, modern, and easy-to-use website solution.",
-          "description": "Bill Gates – CEO"
-        },
-        {
-          "title": "Facebook",
-          "imageUrl": "images/clients/client-facebook.svg",
-          "quote": "The Vue3 theme surpassed expectations with its stunning design, seamless integration, and excellent performance. Highly recommended for a transformative website experience.",
-          "description": "Mark Zuckie – CEO"
-        },
-        {
-          "title": "Nasa",
-          "imageUrl": "images/clients/client-nasa.svg",
-          "quote": "I am absolutely thrilled to express my admiration for this top-notch template with its simple and intuitive design! Words alone cannot do justice to the delight it has brought into my life. From the very first moment I laid my eyes on it, I knew this was something special.",
-          "description": "John Suarez - Tech Analyst"
-        }
-      ],
-
-      "footer": {}
-    },
-
-    {
-      "id": "faq",
-      "component": "FaqSection",
-      "class": "agency-section-primary",
-      "navbar": {
-        "label": "Q&A",
-        "faIcon": "fa-solid fa-question-circle"
-      },
-
-      "headline": {
-        "title": "Questions and <span class='text-primary'>Answers</span>",
-        "subtitle": "Quick answers to your queries!"
-      },
-
-      "items": [
-        {
-          "title": "How do I customize the content of the template?",
-          "description": "To customize the content, you'll need to modify the <i>agency.json</i> and the <i>sections.json</i> files, which are located in the <i>data</i> folder within the <i>public</i> directory. These JSON files contain the necessary data for the template, allowing you to change texts, images, links, and other elements as per your requirements. Make sure to follow the provided structure to avoid any formatting issues. Additionally, if you need to add new sections or make more extensive changes, you may need to work with the Vue components and other files within the template's structure."
-        },
-
-        {
-          "title": "Can I expect the template to be responsive and work well on mobile devices?",
-          "description": "Absolutely! The template is designed with responsiveness in mind, ensuring that it adapts to various screen types and sizes, including mobile devices. The use of responsive design techniques like media queries and flexible layout ensures that the template looks and functions well on smartphones, tablets, and other mobile devices. During customization, make sure to preview the template on different screen sizes and devices to ensure it displays correctly. If you encounter any issues, you can adjust the CSS styles or layout accordingly to improve the mobile experience further."
-        },
-
-        {
-          "title": "How can I enable the functionality of the contact form?",
-          "description": "Integrating the contact form requires implementing your own server-side logic. Please note that the current template only includes the client-side implementation. You'll need to set up a backend server to handle form submissions, process data, and send emails or perform other actions as needed. Ensure that the server-side code is secure to prevent potential security vulnerabilities. On the frontend, you can link the form submission to your backend endpoints using JavaScript. Keep in mind that specific steps may vary based on your backend technology and preferences."
-        },
-
-        {
-          "title": "What steps should I follow to add a new section to the theme?",
-          "description": "Adding a new section to the theme involves a few steps. First, create a new Vue component for it in the <i>sections</i> folder. Use the existing components as a reference to maintain consistency with the template's design and functionality. Next, within the <i>public/data/sections.json</i> file, create an item for the new section, where you can define all the necessary data such as texts, links, and other information. After completing these steps, your new section should be fully integrated into the theme."
-        }
-      ],
-
-      "footer": {
-        "divider": false,
-        "title": "<span class='text-primary'>Save time</span> with Foxy Agency Template!",
-        "description": "Foxy Agency Template beautifully and intuitively extends the Vue and Bootstrap frameworks making it easy to build your next project!",
-        "smallDescription": true,
-        "button": {
-          "label": "Download Now!",
-          "faIcon": "fa-solid fa-download",
-          "href": "https://github.com/ryanbalieiro/foxy-template"
-        }
-      }
-    },
-
-    {
-      "id": "contact",
-      "component": "ContactSection",
-      "class": "agency-section-dark",
-      "navbar": {
-        "label": "Contact",
-        "faIcon": "fa-solid fa-envelope"
-      },
-
-      "headline": {
-        "title": "Contact Us",
-        "subtitle": "Don't hesitate to reach us out!"
-      },
 
       "footer": {}
     }
