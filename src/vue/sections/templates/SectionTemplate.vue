@@ -190,7 +190,7 @@ const downloadFile = () => {
 }
 
 .agency-section-primary {
-  background-color: lighten($primary, 42%);
+  background-color: lighten($primary, 25%);
 }
 
 .agency-section-dark {
