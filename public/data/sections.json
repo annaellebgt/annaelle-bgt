@@ -100,7 +100,7 @@
           "title": "Dashboard",
           "category": "Work experience",
           "description": "<ul> <li>7-week project for Crédit Agricole Assurances, a prominent french insurance company. <li>Developed an online platform enabling farmers to make declarations, examine previous ones, and alter them if required throw a step-by-step form. <li>Implemented algorithms to cross validate data, extract data from pdf and ensure data reliability.</ul>",
-          "imageUrl": "images/portfolio/credit-agricole-logo.png",
+          "imageUrl": "images/portfolio/CA-logo.png",
           "tags": ["Angular", "Java Spring Boot", "Docker", "PostgreSQL"]
         },
 
@@ -108,7 +108,7 @@
           "title": "Teaching Assistant",
           "category": "Work experience",
           "description": "<b>Teaching Assistant in Information Systems and Programming</b><p>Supervised a 30-student advanced class for tutorials on various computer science topics: Python programming, Git, BASH, SQL databases, networks and security.</p>",
-          "imageUrl": "images/portfolio/TA-logo.jpg",
+          "imageUrl": "images/portfolio/CS-logo-square.jpeg",
           "tags": ["Python", "Git", "SQL databases"]
         },
 
@@ -124,7 +124,7 @@
           "title": "Showcase website",
           "category": "Student of Engineering Projects",
           "description": "<ul><li>Designed and developed the showcase website for the start-up company, Tirelires d’Avenir. <li>Led the front-end development efforts, proposing innovative design solutions to optimize user experience and visual appeal.</ul>",
-          "imageUrl": "images/portfolio/tirelires-avenir-logo.png",
+          "imageUrl": "images/portfolio/TA-logo-2.jpeg",
           "tags": ["Webflow", "CSS", "UX/UI Design"]
         },
 
@@ -147,11 +147,12 @@
       "footer": {
         "divider": true,
         "title": "Standard Resume",
-        "description": "You can dowload my resume in a standard format here",
+        "description": "You can view and download my resume in a standard format here",
         "smallDescription": false,
         "button": {
-          "label": "Download Now!",
-          "faIcon": "fa-solid fa-download"
+          "label": "View Resume!",
+          "faIcon": "fa-solid fa-download",
+          "filePath": "./files/Resume.pdf"
         }
       }
     },
