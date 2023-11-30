@@ -2,6 +2,10 @@
   <SectionTemplate :section-data="props.sectionData">
     <!-- Timeline -->
     <ul class="timeline">
+      <!-- Timeline Arrow -->
+      <li class="timeline-item timeline-item-start">
+        <!-- <div class="timeline-image timeline-image-sm"></div> -->
+      </li>
       <!-- Timeline Items -->
       <li
         v-for="(item, index) in props.sectionData['items']"
@@ -20,8 +24,20 @@
           <!-- Heading -->
           <div class="timeline-heading">
             <h3 class="mb-1" v-html="item['title']" />
-            <span class="badge bg-light text-dark text-2 mb-3 mt-1">
+            <span class="badge bg-light text-dark text-2 mt-1">
               <i class="fa fa-calendar-check me-1" /> {{ item["date"] }}
+            </span>
+            <span class="badge bg-light text-success text-2 mt-1">
+              <i class="fa fa-map-marker-alt me-1" /> {{ item["location"] }}
+            </span>
+            <br />
+            <span class="badge bg-primary text-dark text-2 mb-3 mt-1 me-1">
+              <i class="fa fa-solid fa-graduation-cap me-1" />
+              {{ item["degree"] }}
+            </span>
+            <span class="badge bg-primary text-dark text-2 mb-3 mt-1">
+              <i class="fa fa-solid fa-user-graduate me-1" /> GPA:
+              {{ item["GPA"] }}
             </span>
           </div>
 
@@ -62,7 +78,7 @@ const props = defineProps({
   --min-item-width: 42%;
   --item-padding: 0 1.5rem;
 
-  --line-width: 4px;
+  --line-width: 6px;
   --line-position: 50%;
   --inverted-float: left;
   --inverted-align: right;
@@ -101,7 +117,6 @@ const props = defineProps({
 
   &:before {
     position: absolute;
-    top: 0;
     bottom: 0;
     left: var(--line-position);
     width: var(--line-width);
@@ -110,7 +125,7 @@ const props = defineProps({
     height: calc(
       100% - var(--min-item-height) / 3 + var(--image-dimensions) / 3
     );
-    background-color: $light-2;
+    background-color: $primary;
   }
 
   .timeline-item {
@@ -133,6 +148,21 @@ const props = defineProps({
     min-height: calc(var(--min-item-height) / 3);
     margin-bottom: 0;
   }
+  .timeline-item-start {
+    min-height: calc(var(--min-item-height) / 2);
+    margin-bottom: 0;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      border-style: solid;
+      border-width: 20px;
+      border-color: transparent transparent $primary transparent;
+    }
+  }
 
   .timeline-image {
     position: absolute;
@@ -141,10 +171,10 @@ const props = defineProps({
     height: var(--image-dimensions);
     z-index: 50;
 
-    border: 7px solid $light-2;
+    border: 7px solid $primary;
     border-radius: 100%;
     overflow: hidden;
-    background-color: $light-4;
+    background-color: $primary;
 
     &-sm {
       width: calc(var(--image-dimensions) / 3);
