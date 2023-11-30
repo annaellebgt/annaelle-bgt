@@ -20,8 +20,20 @@
           <!-- Heading -->
           <div class="timeline-heading">
             <h3 class="mb-1" v-html="item['title']" />
-            <span class="badge bg-light text-dark text-2 mb-3 mt-1">
+            <span class="badge bg-light text-dark text-2 mt-1">
               <i class="fa fa-calendar-check me-1" /> {{ item["date"] }}
+            </span>
+            <span class="badge bg-light text-success text-2 mt-1">
+              <i class="fa fa-map-marker-alt me-1" /> {{ item["location"] }}
+            </span>
+            <br />
+            <span class="badge bg-primary text-dark text-2 mb-3 mt-1 me-1">
+              <i class="fa fa-solid fa-graduation-cap me-1" />
+              {{ item["degree"] }}
+            </span>
+            <span class="badge bg-primary text-dark text-2 mb-3 mt-1">
+              <i class="fa fa-solid fa-user-graduate me-1" /> GPA:
+              {{ item["GPA"] }}
             </span>
           </div>
 
