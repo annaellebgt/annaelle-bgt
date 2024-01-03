@@ -43,11 +43,36 @@
       "items": [
         {
           "title": "CentraleSupélec, Paris-Saclay University",
-          "date": "2021 → Now",
+          "date": "2024 → Now",
           "location": "Paris, France",
           "GPA": "4.24/4.33",
-          "degree": "Master of Engineering",
-          "description": "<div><ul> <li><span class='text-dark fw-bold'>General Scientific Education</span>: Mathematics, Physics, Computer Science, Engineering Sciences, Economy, Finance and Management. <li> <span class='text-dark fw-bold'>Relevant courses</span>: Algorithmic and Complexity, Statistics and Learning, Information Systems and Programming, Networks and Security, Object Oriented Software Engineering, Optimization, and Convergence, Integration and Probability. <li> Currently enrolled in an elite computer science track: the <span class='text-dark fw-bold'>Digital Tech Year</span> (first semester composed of seven-week projects for top-tier French companies; and internship abroad for the second semester).</ul></div>",
+          "degree": "Master of Science in Engineering",
+          "description": "<div><ul> <li><span class='text-dark fw-bold'>General Scientific Education</span>: Mathematics, Physics, Computer Science, Engineering Sciences, Economy, Finance and Management. <li> <span class='text-dark fw-bold'>Relevant courses</span>: Object Oriented Software Engineering, Optimization, Web and mobile application development, Optimization of passagers transport systems and Serious Game.</ul></div>",
+          "imageUrl": "images/history/CS-logo.png"
+        },
+        {
+          "title": "Datamaran",
+          "date": "September 2023 - January 2024",
+          "location": "Paris, France",
+          "position": "Software Engineer Intern",
+          "description": "<div>I contributed to the <span class='text-dark fw-bold'> development of new features</span> for the world's only data-driven platform designed to identify and monitor material Environmental, Social, and Governance (ESG) risks.</div>",
+          "imageUrl": "images/portfolio/datamaran-logo.jpeg"
+        },
+        {
+          "title": "Paris Digital Lab",
+          "date": "February 2023 - July 2023",
+          "location": "Paris, France",
+          "position": "Agile Prototyper Intern",
+          "description": "<div>The Paris Digital Lab is an elite computer science track also called the <span class='text-dark fw-bold'>Digital Tech Year</span>. The first semester composed of seven-week projects for top-tier French companies, and internship abroad for the second semester.</div>",
+          "imageUrl": "images/history/pdl-logo.png"
+        },
+        {
+          "title": "CentraleSupélec, Paris-Saclay University",
+          "date": "2021 → 2022",
+          "location": "Paris, France",
+          "GPA": "4.23/4.33",
+          "degree": "Bachelor of Engineering",
+          "description": "<div><ul> <li><span class='text-dark fw-bold'>General Scientific Education</span>: Mathematics, Physics, Computer Science, Engineering Sciences, Economy, Finance and Management. <li> <span class='text-dark fw-bold'>Relevant courses</span>: Algorithmic and Complexity, Statistics and Learning, Information Systems and Programming, Networks and Security, and Convergence, Integration and Probability.</ul></div>",
           "imageUrl": "images/history/CS-logo.png"
         },
         {

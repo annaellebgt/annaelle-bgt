@@ -31,13 +31,26 @@
               <i class="fa fa-map-marker-alt me-1" /> {{ item["location"] }}
             </span>
             <br />
-            <span class="badge bg-primary text-dark text-2 mb-3 mt-1 me-1">
+            <span
+              v-if="item['degree']"
+              class="badge bg-primary text-dark text-2 mt-1 me-1"
+            >
               <i class="fa fa-solid fa-graduation-cap me-1" />
               {{ item["degree"] }}
             </span>
-            <span class="badge bg-primary text-dark text-2 mb-3 mt-1">
+            <span
+              v-if="item['GPA']"
+              class="badge bg-primary text-dark text-2 mb-3 mt-1"
+            >
               <i class="fa fa-solid fa-user-graduate me-1" /> GPA:
               {{ item["GPA"] }}
+            </span>
+            <span
+              v-if="item['position']"
+              class="badge bg-primary text-dark text-2 mb-3 mt-1"
+            >
+              <i class="fa fa-solid fa-user me-1" />
+              {{ item["position"] }}
             </span>
           </div>
 
@@ -105,7 +118,7 @@ const props = defineProps({
     --item-padding: 0 calc(var(--image-dimensions) / 4) 0
       calc(var(--image-dimensions) * 1.2);
 
-    --line-width: 2px;
+    --line-width: 6px;
     --line-position: calc(var(--image-dimensions) / 2);
     --inverted-float: right;
     --inverted-align: left;
@@ -154,9 +167,9 @@ const props = defineProps({
 
     &::before {
       content: "";
-      position: absolute;
       top: 0;
-      left: 50%;
+      position: absolute;
+      left: var(--line-position);
       transform: translateX(-50%);
       border-style: solid;
       border-width: 20px;

@@ -15,7 +15,7 @@
     "button": {
       "label": "Get to know me!",
       "icon": "fa fa-search",
-      "targetSection": "About"
+      "targetSection": "about"
     }
   },
 
