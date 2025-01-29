@@ -117,7 +117,7 @@
           "category": "Student of Engineering Projects",
           "description": "<ul><li>Implemented an automated grammar generation system using LLMs, boosting efficiency in creating software testing grammars.<li>Integrated automated and human feedback to optimize accuracy for unseen domains via few-shot prompting <li> Co-authored comprehensive project report analyzing LLMs’ potential to streamline software development while revealing limitations in handling complex grammar structures. Demonstrated innovative application of AI in software engineering <li>Won ”Outstanding Project Award” highlighting most innovative and promising group project in class</ul>",
           "imageUrl": "images/portfolio/ucla-logo.jpg",
-          "tags": ["Python"]
+          "tags": ["Python", "Antlr", "Grammarinator"]
         },
         {
           "title": "Cybersecurity Game",
