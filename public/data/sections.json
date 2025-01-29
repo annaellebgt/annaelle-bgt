@@ -19,7 +19,7 @@
           "description": [
             "Greetings! I'm Annaëlle Baiget, a computer science enthusiast driven by a fascination for problem-solving and innovative thinking.",
             "My journey from mathematics Olympiads to CentraleSupélec has ignited a passion for computer science. What captivates me most is the dynamic nature of the field and its potential to create meaningful solutions.",
-            "Currently, I'm a software engineer at Datamaran, working on AI-driven prototypes for ESG risk identification."
+            "Currently, I'm a Master student in Computer Science at UCLA."
           ]
         }
       ],
@@ -37,10 +37,19 @@
 
       "headline": {
         "title": "My <span class='text-primary'>Education</span>",
-        "subtitle": "French School System"
+        "subtitle": "USA and France"
       },
 
       "items": [
+        {
+          "title": "University of California, Los Angeles (UCLA)",
+          "date": "September 2024 → Now",
+          "location": "Los Angeles, USA",
+          "GPA": "4/4",
+          "degree": "MS in Computer Science",
+          "description": "<div><span class='text-dark fw-bold'>Relevant courses</span>: Software Engineering, Quantum Programming, Human-Computer Interaction, Data Mining</div>",
+          "imageUrl": "images/history/ucla-logo.jpg"
+        },
         {
           "title": "CentraleSupélec, Paris-Saclay University",
           "date": "2024 → Now",
@@ -103,6 +112,20 @@
       },
 
       "items": [
+        {
+          "title": "Automated Grammar Generation using LLMs",
+          "category": "Student of Engineering Projects",
+          "description": "<ul><li>Implemented an automated grammar generation system using LLMs, boosting efficiency in creating software testing grammars.<li>Integrated automated and human feedback to optimize accuracy for unseen domains via few-shot prompting <li> Co-authored comprehensive project report analyzing LLMs’ potential to streamline software development while revealing limitations in handling complex grammar structures. Demonstrated innovative application of AI in software engineering <li>Won ”Outstanding Project Award” highlighting most innovative and promising group project in class</ul>",
+          "imageUrl": "images/portfolio/ucla-logo.jpg",
+          "tags": ["Python"]
+        },
+        {
+          "title": "Cybersecurity Game",
+          "category": "Student of Engineering Projects",
+          "description": "<ul><li>Designed an innovative cybersecurity educational game for teenagers using GPT-4 to generate a realistic database of scams and normal texts, leveraging a full-stack tech stack including React.JS, TypeScript, Express.JS, and MongoDB to create an engaging platform helping users identify digital fraud</ul>",
+          "imageUrl": "images/portfolio/ucla-logo.jpg",
+          "tags": ["React", "MongoDB", "TypeScript", "ExpressJS"]
+        },
         {
           "title": "Datamaran",
           "category": "Work experience",

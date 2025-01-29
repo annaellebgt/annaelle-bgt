@@ -10,7 +10,7 @@
 
   "header": {
     "title": "My Portfolio",
-    "subtitle": "Computer Engineering Student",
+    "subtitle": "MS in Computer Science Student",
     "imageUrl": "images/logo/dev-logo.webp",
     "button": {
       "label": "Get to know me!",
@@ -23,7 +23,7 @@
     "left": {
       "title": "About",
       "faIcon": "fa fa-pen me-1 d-none d-md-inline",
-      "description": "This is my portfolio, where I showcase my projects and skills. It is based on the Bootstrap framework and the Vue framework.",
+      "description": "This is my portfolio, where I showcase my projects and skills.",
       "displayItemsAsButtons": false
     },
 
@@ -50,8 +50,8 @@
       "items": [
         {
           "faIcon": "fa fa-envelope",
-          "label": "annaelle.baiget@student-cs.fr",
-          "href": "mailto:annaelle.baiget@student-cs.fr"
+          "label": "annaellebaiget@g.ucla.edu",
+          "href": "mailto:annaellebaiget@g.ucla.edu"
         }
       ],
       "displayItemsAsButtons": false
